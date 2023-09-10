@@ -11,7 +11,7 @@ public class SpringHttpsDemoApplication {
 
 	@GetMapping("/getData")
 	public String getMessage(){
-		return "Accessed by https req";
+		return "Accessed by https ";
 	}
 
 	public static void main(String[] args) {
