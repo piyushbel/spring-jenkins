@@ -1,0 +1,12 @@
+server:
+  ssl:
+    key-alias: spring-https
+    key-store: classpath:falcon.jks
+    key-store-type: JKS
+    key-store-password: password
+
+  port: 7777
+
+#  Java KeyStore (JKS) is a repository of security certificates – either authorization certificates
+#  or public key certificates – plus corresponding private keys, used for instance in TLS encryption
+#default port for https is 443
